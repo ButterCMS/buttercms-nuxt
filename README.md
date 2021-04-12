@@ -21,8 +21,8 @@ To integrate ButterCMS in your ongoing project, create a service file.
 `plugins/buttercms.js`
 
 ```javascript
-export const butterService = Butter()
-export const butter = Butter('<your api token>')
+const Butter = require('buttercms')
+export const butter = Butter('your-api-token')
 ```
 
 Import ButterCMS client in your Vue file:
