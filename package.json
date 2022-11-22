@@ -14,7 +14,7 @@
   "dependencies": {
     "buttercms": "^1.2.2",
     "express": "^4.17.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
